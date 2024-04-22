@@ -1,0 +1,337 @@
+#navigation {
+    width: 70%;
+}
+
+#navigation ul li {
+    list-style-type: none;
+    margin: 15px;
+}
+
+#navigation ul {
+    display: flex;
+    justify-content: right;
+}
+
+#navigation a {
+    padding: 3px;
+    border: 1px solid red;
+    text-decoration: none;
+}
+
+#home {
+    width: 100%;
+    display: flex;
+    background-color: aliceblue;
+
+}
+
+#books h1 {
+    color: crimson;
+}
+
+#main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+@media (max-width:800px) {
+    #main {
+        flex-direction: column;
+    }
+
+    #div1 {
+        width: 100% !important;
+    }
+
+    #div1 img {
+        height: auto;
+        width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    #div2 {
+
+        width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+
+    }
+}
+
+#div1 {
+    width: 25%;
+}
+
+#div1 img {
+    width: 90%;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+#div2 {
+    width: 40%;
+    padding: 20px;
+    margin: 20px;
+}
+
+#div8>#s {
+    color: #fff;
+    background-color: violet;
+    padding: 10px;
+    margin: auto;
+}
+
+#div8 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    width: 100%;
+    background-color: aliceblue;
+    margin-top: 100px;
+}
+
+#logo h1 {
+    text-align: center;
+}
+#logo span {
+    color: #d22d2d;
+}
+#logo span:hover {
+    text-decoration: underline;
+}
+
+#div3 img {
+    width: 150px;
+    margin: 30px;
+}
+
+#image {
+    width: 100%;
+    margin-top: 100px;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+#div4 img {
+    height: 200px;
+    width: 80%;
+    margin: 9px;
+    padding: 8px;
+}
+
+.hover {
+    width: 333px;
+    flex-grow: 1;
+}
+
+#div4 {
+    display: flex;
+    width: 100%;
+    transition: 3s;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#div4 p,
+h1 {
+    padding: 10px;
+    margin: auto;
+}
+
+.hover:hover {
+    transform: translateY(8px);
+}
+
+#div5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    text-align: center;
+}
+
+
+#div5 h1 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    
+}
+
+#k {
+    color: #fff;
+    background-color: violet;
+    padding: 10px;
+    position: relative;
+    left: 40%;
+    transform: translateX(-40%, 0);
+}
+
+#heading {
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+#div6{
+    width: 40%;
+}
+
+#div6 img {
+    width: 200px;
+    padding: 20px;
+}
+
+#footer {
+    width: 100%;
+    background-color: crimson;
+    margin-top: 100px;
+}
+
+#footer p {
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+}
+#bb > a{
+    text-align: center;
+}
+@media (max-width:500px){
+    #heading{
+        flex-direction: column-reverse;
+    }
+    #div5{
+        width: 100%;
+    }
+    #div6{
+        width: 100%;
+    }
+    #div6 img{
+        width: 100%;
+    }
+}
+#navbarText > ul > a{
+    text-decoration: none;
+}
+#navbarText > ul > a:hover{
+    color: red;
+}
+
+
+/* ---------dashboard----------- */
+
+#div-1{
+    text-align: center;
+}
+
+
+/* ------about us------- */
+#about{
+    display: flex;
+    padding: 100px;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+#about1{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    vertical-align: center;
+}
+#about h1{
+    color: gold;
+    font-size: 100px;
+}
+#about p {
+    color: white;
+    
+}
+
+#about2{
+    width: 30%;
+}
+#about2 img{
+    width: 70%;
+}
+
+
+/* ------------ faq ------------ */
+#faq-1 > h1{
+    text-align: center;
+}
+
+.faq1{
+    margin-bottom: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.faq1 > h2 {
+    color: #5454b3;
+}
+
+.icon{
+    width: 100%;
+}
+
+.ico{
+    width: 40px;
+}
+
+.ico:hover{
+    font-size: 20px;
+}
+
+
+
+/* -------------  login  ------------- */
+
+
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;   
+}
+.width-35{
+    width: 35%;
+}
+.container > h1{
+    color: #d22d2d;
+    margin-top: 60px;
+    
+}
+.login{
+    align-self: flex-start;
+    margin-left: 20px;
+}
+.imput-type{
+    width: 400px;
+}
+.button{
+    padding: 20px;
+    border-radius: 40%;
+    width: 100px;
+    margin-bottom: 20px;
+}
+#singup{
+    text-decoration: none;
+}
+.hh{
+    border-top: 1px solid #120f0f7a;
+    width:100%;
+    padding-top: 30px;
+}
